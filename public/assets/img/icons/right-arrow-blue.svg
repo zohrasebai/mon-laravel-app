@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" width="16" height="12">
+	<title>right-arrow-blue</title>
+	<style>
+		.s0 { fill: #6366f1 } 
+	</style>
+	<path class="s0" d="m0.6 6.6c-0.3-0.3-0.3-0.8 0-1.1l5.1-5.1c0.3-0.3 0.8-0.3 1.1 0 0.3 0.3 0.3 0.8 0 1.1l-4.5 4.5 4.5 4.5c0.3 0.4 0.3 0.9 0 1.2-0.3 0.3-0.8 0.3-1.1 0zm14.6-0.6v0.8h-14.1v-0.8-0.8h14.1z"/>
+</svg>

@@ -1,0 +1,92 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 31/03/2020 18:58
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1;
+}
+
+.flaticon-consulting:before { content: "\f100"; }
+.flaticon-consultation:before { content: "\f101"; }
+.flaticon-avatar:before { content: "\f102"; }
+.flaticon-consulting-1:before { content: "\f103"; }
+.flaticon-creativity:before { content: "\f104"; }
+.flaticon-team:before { content: "\f105"; }
+.flaticon-brainstorming:before { content: "\f106"; }
+.flaticon-insight:before { content: "\f107"; }
+.flaticon-arrow:before { content: "\f108"; }
+.flaticon-arrow-1:before { content: "\f109"; }
+.flaticon-money:before { content: "\f10a"; }
+.flaticon-market-research:before { content: "\f10b"; }
+.flaticon-down:before { content: "\f10c"; }
+.flaticon-right:before { content: "\f10d"; }
+.flaticon-right-arrow:before { content: "\f10e"; }
+.flaticon-right-1:before { content: "\f10f"; }
+.flaticon-left-arrow:before { content: "\f110"; }
+.flaticon-left:before { content: "\f111"; }
+.flaticon-left-1:before { content: "\f112"; }
+.flaticon-play:before { content: "\f113"; }
+.flaticon-play-button:before { content: "\f114"; }
+.flaticon-quote:before { content: "\f115"; }
+.flaticon-left-quote:before { content: "\f116"; }
+.flaticon-quote-1:before { content: "\f117"; }
+.flaticon-quote-left:before { content: "\f118"; }
+.flaticon-left-quote-1:before { content: "\f119"; }
+.flaticon-star:before { content: "\f11a"; }
+.flaticon-star-1:before { content: "\f11b"; }
+.flaticon-favourite:before { content: "\f11c"; }
+.flaticon-award:before { content: "\f11d"; }
+.flaticon-medal:before { content: "\f11e"; }
+.flaticon-maps-and-flags:before { content: "\f11f"; }
+.flaticon-pin:before { content: "\f120"; }
+.flaticon-pin-1:before { content: "\f121"; }
+.flaticon-placeholder:before { content: "\f122"; }
+.flaticon-envato:before { content: "\f123"; }
+.flaticon-themeforest:before { content: "\f124"; }
+.flaticon-codecanyon:before { content: "\f125"; }
+.flaticon-graphicriver:before { content: "\f126"; }
+.flaticon-audiojungle:before { content: "\f127"; }
+.flaticon-audiojungle-1:before { content: "\f128"; }
+.flaticon-envato-1:before { content: "\f129"; }
+.flaticon-themeforest-1:before { content: "\f12a"; }
+.flaticon-codecanyon-1:before { content: "\f12b"; }
+.flaticon-graphicriver-1:before { content: "\f12c"; }
+.flaticon-email:before { content: "\f12d"; }
+.flaticon-envelope:before { content: "\f12e"; }
+.flaticon-call:before { content: "\f12f"; }
+.flaticon-call-1:before { content: "\f130"; }
+.flaticon-24-hours-support:before { content: "\f131"; }
+.flaticon-24-hours-delivery:before { content: "\f132"; }
+.flaticon-restaurant:before { content: "\f133"; }
+.flaticon-investment:before { content: "\f134"; }
+.flaticon-loan:before { content: "\f135"; }
+.flaticon-funding:before { content: "\f136"; }
+.flaticon-banking:before { content: "\f137"; }
+.flaticon-insurance:before { content: "\f138"; }
+.flaticon-insurance-1:before { content: "\f139"; }
+.flaticon-management:before { content: "\f13a"; }
+.flaticon-benchmark:before { content: "\f13b"; }

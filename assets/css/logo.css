@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Yoshida+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* عنصر الشعار بالكامل */
+.custom-logo {
+  display: inline-flex !important;
+  flex-direction: row-reverse !important; /* الكلمة على اليمين، الصورة على اليسار */
+  align-items: center !important;         /* المحاذاة الرأسية المثالية */
+  gap: 0px !important;                    /* تباعد بصري احترافي */
+  text-decoration: none !important;
+  font-family: 'Playfair Display', sans-serif !important;
+  font-size: 48px !important;             /* حجم الخط مضبوط */
+  font-weight: 500 !important;
+  color: #1a1a1a !important;
+  line-height: 1 !important;
+  direction: rtl !important;             /* من اليمين لليسار */
+}
+
+/* نص الشعار */
+.logo-text {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  color: inherit !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+}
+
+/* صورة الشعار */
+.logo-icon {
+  height: 57px !important;               /* متناسق مع خط 48px */
+  width: auto !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;     /* لضمان المحاذاة الرأسية */
+}
+
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* ارتفع 20px */
+  }
+}
+
+.floating {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+
+/* 
+================================================================
+08. Header
+================================================================
+*/
+
+/*-----------------------------
+ Top Header 
+-----------------------------*/
+.top-header {
+  width: 100%;
+  font-size: 14px;
+  line-height: 50px;
+}
+.top-header ul li {
+  float: left;
+  margin-right: 30px;
+}
+.top-header ul li:last-child {
+  margin-right: 0px;
+}
+.top-header ul li i {
+  font-size: 16px;
+}
+.border-b-1-solid {
+  border: 1px solid;
+}
+.quote-btn {
+  line-height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*-----------------------------
+ Main Navbar 
+-----------------------------*/
+.nav-on-top,
+.nav-on-banner {
+  animation-fill-mode: both;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  position: absolute;
+}
+.nav-on-banner {
+  left: 0;
+}
+.nav-option li {
+  float: left;
+  margin-right: 30px;
+}
+.nav-option li:last-child {
+  margin-right: 0px;
+}
+.search-field {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+/*-----------------------------
+ Sticky Menu Animation 
+-----------------------------*/
+@keyframes menu_sticky {
+  0% {
+    margin-top: -100px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+header.header-fixed {
+  animation-duration: 1s;
+  animation-name: menu_sticky;
+  animation-timing-function: ease-out;
+}
+header.header-fixed .top-header {
+  display: none !important;
+}
+.header-fixed {
+  left: 0;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  z-index: 11111;
+}
+
+/*-----------------------------
+ Dropdown Menu 
+-----------------------------*/
+.navbar .navbar-nav .nav-item,
+.dropdown-item {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  z-index: 999;
+}
+.navbar .navbar-nav .nav-item {
+  margin-right: 40px;
+}
+.navbar .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+#header .navbar-light .navbar-nav:first-child .nav-link {
+  padding-left: 0px;
+}
+#header .navbar-light .navbar-nav:last-child .nav-link {
+  padding-right: 0px;
+}
+.dropdown-toggle:after {
+  border: none;
+}
+#header .navbar .navbar-nav li > ul.dropdown-menu {
+  border-radius: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+.dropdown-menu {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+#header .dropdown-item {
+  padding: 7px 20px;
+}
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/*-----------------------------
+ Search Field 
+-----------------------------*/
+.search-field i.fa {
+  margin: 5px 0;
+  position: relative;
+  width: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.search-field .search {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  opacity: 0;
+  z-index: 111;
+  height: 0px !important;
+}
+.search-field .fa-times {
+  display: none;
+}
+.search-field .search.show {
+  margin-top: 55px;
+  opacity: 1;
+}
+.search-field .search.show,
+.search-field .fa-times.show {
+  display: block;
+}
+.search-field .form-control.show {
+  height: calc(2.5em + 0.75rem + 10px) !important;
+}
+.header-3 .search-field .search.show {
+  margin-right: 70px;
+}
+
+/*-----------------------------
+ Hamburger Menu 
+-----------------------------*/
+::-webkit-scrollbar {
+  width: 7px !important;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #051929 !important;
+}
+#hamburger-button {
+  cursor: pointer;
+}
+#hamburger-button > span {
+  display: block;
+  height: 3px;
+  margin-top: 4px;
+  width: 30px;
+  padding: 0px !important;
+  transition: 1s linear;
+}
+#hamburger-button.open > span:first-child {
+  transform: translateY(7px) rotate(45deg);
+}
+#hamburger-button.open > span:nth-child(2) {
+  transform: rotateY(90deg);
+}
+#hamburger-button.open > span:last-child {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.burger-nav {
+  position: fixed;
+  z-index: 99999;
+  height: 100vh;
+  width: 400px;
+  left: -400px;
+  top: 0px;
+  bottom: 0;
+  transition: 1s;
+  color: white;
+  overflow-y: scroll;
+  background: #0c1f3f;
+}
+.burger-nav.open {
+  left: 0;
+}
+.burger-nav .navbar-nav {
+  margin-top: 30%;
+}
+.burger-nav .dropdown-toggle {
+  position: relative;
+}
+.burger-nav .dropdown-toggle:before {
+  position: absolute;
+  content: "\f107";
+  font-family: FontAwesome;
+  right: 0px;
+  top: 50%;
+}
+.burger-nav .dropdown-toggle[aria-expanded="true"]:before {
+  content: "\f106";
+}
+.header-3 .search-field i.fa {
+  margin: 17px 0;
+}
+
+/*-----------------------------
+ Logo Styling (اختياري)
+-----------------------------*/
+.custom-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.logo-icon {
+  height: 32px;
+}
+

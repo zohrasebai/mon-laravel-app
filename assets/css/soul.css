@@ -1,0 +1,155 @@
+/* ::scroll-marker */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #444;
+}
+
+/* ----- header.tsx ----- */
+.bg-secondery {
+  background-color: #1a1a1a;
+}
+.color-white, .color-white-a {
+  color: #fff;
+}
+.logo-icon {
+  height: 50px;
+}
+#hamburger-button {
+  cursor: pointer;
+}
+#hamburger-button span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: black;
+  margin: 4px 0;
+}
+.burger-nav {
+  display: none;
+}
+.burger-nav.open {
+  display: block;
+}
+
+
+/* slider / */
+
+.hero-section {
+  width: 100%;
+  background-color: #020c1b;
+  padding: 12rem 1rem;
+  color: white;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+  }
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-text h1 {
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 1.3;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 46px;
+   line-height: 70px;
+}
+
+.hero-text .changing-word {
+  color: #0197af;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.hero-text p {
+  font-size: 1.125rem;
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+
+.hero-button {
+  background-color: #0197af;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 9999px;
+  font-weight: 500;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #0197af;
+}
+
+.hero-image img {
+  max-width: 300px;
+  transition: transform 0.5s ease;
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+/* why-css  */
+
+.login-form:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0;
+    background: url(https://nationalutilitiesrefund.com/wp-content/uploads/network-server-room.png) no-repeat right center / cover !important;
+}
+
+
+
+.navbar-area.style-two.sticky {
+    background-color: #d7e9e7 !important;
+    padding: 0;
+}

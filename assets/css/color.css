@@ -1,0 +1,595 @@
+h1, h2, h3, h4, h5, h6{
+	color: #082136
+}
+body{
+	color: #666666;
+}
+/* Text Color 
+===================================================*/ 
+.color-primary, .color-primary-a{
+	color: #0197af !important; /* color Primary */
+}
+.color-secondery, .color-secondery-a a{
+	color: #082136 !important /* color secondery */
+}
+.color-dark{
+	color: #343a40 !important; /* color Dark */
+}
+.color-gray{
+	color: #6c757d !important; /* color Gray */
+}
+.color-light{
+	color: #dfdfdf !important; /* color Light */
+}
+.color-light-gray{
+	color: #a1a1a1 !important; /* color Light Gray */
+}
+.color-white{
+	color: #ffffff7a !important; /* color White */
+}
+/* Icon Color
+===================================================*/
+.icon-primary i,
+.icon-primary:before{
+	color: #0197af; /* icon primary */
+}
+.icon-secondery i,
+.icon-secondery:before{
+	color: #fff; /* icon secondery */
+}
+.icon-dark i,
+.icon-dark:before{
+	color: #343a40; /* icon dark */
+}
+.icon-gray i,
+.icon-gray:before{
+	color: #6c757d /* icon gray */
+}
+.icon-light i,
+.icon-light:before{
+	color: #f8f9fa /* icon light */
+}
+.icon-white i,
+.icon-white:before{
+	color: #fff;  /* icon white */
+}
+/* Background Color 
+====================================================*/
+.bg-primary{
+	background-color: #0197af !important; /* Background color primary */
+}
+.bg-secondery{
+	background-color: #082136 !important /* Background color secondery */
+}
+.bg-dark{
+	background-color: #1a1a1a !important; /* Backgrund color dark */
+}
+.bg-gray{
+	background-color: #eceef5 !important; /* Background Gray */
+}
+.bg-white{
+	background-color: #fff !important; /* Background color white */
+}
+.bg-dark-magenta{
+	background-color: #54c48c; /* Background color dark magenta */
+}
+.bg-sky{
+	background-color: #06d8ff; /* Background color dark goldenrod */
+}
+.bg-yellow{
+	background-color: #f5ff12
+}
+.bg-green{
+	background-color: #21ff00 
+}
+/* All Button Color 
+===================================================*/
+.btn-window .top,
+.btn-window .bottom{
+    background: #082136;
+    color: #fff;
+}
+.btn-window .show{
+    color: #fff;
+}
+.btn-window:hover{
+	background: #0197af;
+    color: #fff;
+}
+.btn-primary{
+	color: #fff;
+	background-color: #0197af;
+	border-color: #0197af;
+}
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active{
+	color: #0197af !important;
+	background-color: transparent;
+	border-color: #0197af;
+}
+.btn-secondery{
+	color: #fff;
+	background-color: #082136; 
+	border-color: #082136;
+}
+.btn-secondery:hover{
+	background-color: transparent;
+	color: #082136;
+	border-color: #082136;
+}
+.btn-dark{
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+.btn-dark:hover,
+.btn-dark:not(:disabled):not(.disabled).active{
+	color: #343a40;
+	background-color: transparent;
+	border-color: #343a40;
+}
+.btn-white{
+	color: #082136;
+	background-color: #fff;
+	border-color: #fff;
+}
+.btn-white:hover{
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.btn-small{
+    background-color: #0197af;
+    color: #fff;
+    border-color: #0197af;
+}
+.btn-small:hover{
+    background-color: transparent;
+    color: #0197af;
+    border-color: #0197af;
+}
+.btn-newsletter{
+	background-color: #343a40;
+	color: #fff;
+}
+.btn-circle{
+  color: #fff;
+  background-color: #0197af
+}
+.btn-circle:hover{
+  background-color: #082136;
+  color: #fff
+}
+/* All Class Text Color 
+===================================================*/ 
+/* Color Primary
+--------------------*/
+.btn-link:hover,
+.thumbnail-title-1 a:hover,
+.process-item-one a:hover,
+.member-profile-1 .designation,
+.media-three li a:hover,
+.missionary-title-1 a:hover,
+.hover-primary a:hover,
+.hover-white-primary a:hover,
+.hover-gray a:hover,
+.list-inline-block a:hover,
+.icon-animation,
+.navbar .navbar-nav li > ul.dropdown-menu li.active > a,
+.navbar .navbar-nav li.active > a,
+.nav-header .dropdown-item:active,
+.nav-header .dropdown-item:focus,
+.nav-header .dropdown-item:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.nav-header .nav-item span:hover,
+.navbar-light .navbar-nav.nav-white .nav-link:hover, 
+.nav-header .navbar-nav.nav-white .nav-item span:hover,
+.navbar .navbar-nav li > a.active,
+.burger-nav .navbar-nav .nav-link:hover,
+.burger-nav .navbar-nav .dropdown-item:hover,
+.burger-nav .navbar-nav li.active a,
+.navbar-light .navbar-nav.nav-white li.active .nav-link,
+.testimonial-one-text sup,
+.testimonial-one-text sub,
+.support-links li,
+.post-title:hover,
+.post-details .post-meta li span,
+.breadcrumb-item a,
+.footer-btm li a:hover,
+.gallery-navbar li:hover,
+.btn-show-pass:hover,
+.btn-icon:hover i,
+.box-style-3 a:hover .box-title-3,
+.color-white-hover-primary a:hover,
+.post-meta i,
+.member-profile a:hover,
+.list-style-icon-primary li:before,
+.about-block-list .list-style-icon-check li:before,
+.service-3 .box-title-3:hover{
+	color: #0197af !important;
+}
+/* color secondery
+---------------------*/
+.quote-btn:hover,
+.media-three li a,
+.accordion-three .card-header button,
+.hover-primary a,
+.btn-large-secendery:hover,
+.post-content blockquote p i,
+.side-menu-list li a,
+.accordion-one .btn{
+	color: #082136 !important;
+}
+/* Color Dark
+--------------------*/
+.custom-option,
+.icon-dark i,
+.process-icon sup,
+.process-item-one a,
+.media-one li a:hover,
+.thumbnail-title-2 a,
+.missionary-title-1 a,
+.pagination-style-one .page-link,
+.btn-large-dark:hover,
+.accordion-2 .acdn-title a,
+.navbar-light .navbar-nav .nav-link,
+.gallery-navbar li{
+	color: #343a40;
+}
+/* color Light
+--------------------*/
+
+/* color Gray
+--------------------*/
+.thumbnail-title-2 a:hover,
+.recent,
+.hover-gray a,
+.media-two li a,
+.contact-info ul li span,
+.post-meta ul li a{
+	color: #6c757d !important;
+}
+/* color light gray
+----------------------*/
+.search-one-icon,
+.search-one-icon:focus,
+.form-search .form-control::-webkit-input-placeholder{
+	color: #a1a1a1;
+}
+/* Color White
+--------------------*/
+.navbar-light .navbar-nav.nav-white .nav-link, 
+.nav-header .navbar-nav.nav-white .nav-item span,
+.box-style-2:hover .box-title-2 a,
+.color-white-a a,
+.btn-link.white:hover,
+.custom-option.selection,
+.custom-select-trigger,
+.cart-number,
+.video-image .video-popup i:before,
+.thumbnail-title-1 a,
+.member-profile-1 .profile-title,
+.media-one li a,
+.media-two li a:hover,
+.thumbnail-item-two.owl-carousel .owl-nav button.owl-prev:hover,
+.thumbnail-item-two.owl-carousel .owl-nav button.owl-next:hover,
+.pagination-style-one .page-link:hover,
+.btn-large-dark,
+.hover-white a,
+.hover-white a:hover,
+.profile-contact-1 li span,
+.owl-nav-round.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-nav-round.owl-carousel .owl-nav button.owl-next:hover,
+.btn-large-secendery,
+.nav-tabs li a,
+.side-menu-list li a:hover,
+.side-menu-list li a.active,
+.or,
+.color-white-hover-primary a,
+.owl-nav-style-one .owl-nav button,
+.hover-white-primary a{
+	color: #fff !important;
+}
+/* Color Yellow
+-----------------------*/
+.ratting li{
+	color: #ffc600;
+}
+/* Background Color 
+===================================================*/ 
+/* Background Color Primary
+-------------------------------*/
+::-webkit-scrollbar-thumb,
+.custom-option.selection,
+.cart-number,
+.video-image a,
+.ball-scale-multiple > div,
+.section-title-5 .top-title:before,
+.media-two li a:hover,
+.newsletter-style-1 .btn-newsletter,
+.owl-nav-round.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-nav-round.owl-carousel .owl-nav button.owl-next:hover,
+.pagination-style-one .page-item.active .page-link,
+.pagination-style-one .page-link:hover,
+.widget-title-primary:before,
+.inner-title-primary:before,
+.profile-contact-1 li span,
+.faq-item .faq-icon,
+.va-lb-line-w50-h2-primary:before,
+.section-title-2:before,
+.va-c-line-w50-h1-primary:before,
+.member-prifile-4:before,
+.owl-carousel button.owl-dot.active,
+.nav-tabs li a.active,
+.side-menu-list li a:hover,
+.side-menu-list li a.active,
+.linear:before,
+.dots,
+.line-right:before,
+.line-right:after,
+.line-left:after,
+.personal-video a:hover,
+.or,
+.toggle-btn[aria-expanded="true"] span:nth-child(2),
+.box-style-3:before,
+.post-item:before,
+#hamburger-button > span,
+.achivement-style-2 span:before,
+.price-plan-2 .table-header-right:before,
+.offer-banner-2:before{
+	background-color: #0197af !important;
+}
+/* Background Color Secondery
+-------------------------------*/
+.choose-us-one:before,
+.owl-carousel button.owl-dot,
+.btn-large-secendery,
+.nav-tabs li a,
+.toggle-btn span,
+.why-us-img:before,
+.owl-nav-style-one .owl-nav button,
+.header-4 .nav-header:before{
+	background-color: #082136 !important;
+}
+.portfolio-content a{
+	background-color: #082136
+}
+.header-fixed,
+.va-lb-line-w50-h2-white:before{
+	background-color: #fff
+}
+.box-style-6:before,
+.box-style-6:after{
+	background-color: #343a40;
+}
+
+/*	Background Color Dark
+-------------------------------*/
+.media-one li a,
+.btn-large-dark,
+#scroll{
+	background-color: #343a40;
+}
+/* Background Color White
+-------------------------------*/
+.quote-btn:hover,
+.custom-options,
+.process-icon sup,
+.owl-carousel.testimonial-one button.owl-dot,
+.round,
+.newsletter-style-1 .form-control,
+.table-header:before,
+.portfolio-details-slider-1 .owl-dots .owl-dot,
+.widget-title-white:before,
+.btn-large-dark:hover,
+#header-2.header-fixed,
+.btn-large-secendery:hover{
+	background-color: #fff !important;
+}
+.round:after{
+	background-color: rgba(255,255,255,0.5);
+}
+/* Background Color Light
+--------------------------------*/
+.pagination-style-one .page-link,
+.owl-nav-round.owl-carousel .owl-nav button.owl-prev,
+.owl-nav-round.owl-carousel .owl-nav button.owl-next{
+	background-color: #eceef5 !important;
+}
+.bg-light-2{
+	background-color: #f6f6f6
+}
+.dots,
+.line-center:after{
+	background-color: #dfdfdf
+}
+
+.facebook,
+.facebook:hover{
+	background: #32508E;
+	color: #fff;
+}
+.twitter,
+.twitter:hover{
+	background: #55ACEE;
+	color: #fff;
+}
+.google,
+.google:hover{
+	background: #DD4B39;
+	color: #fff;
+}
+::-webkit-scrollbar{
+	background-color: #051929
+}
+/* Border Color
+===================================================*/ 
+.process-icon,
+.process-icon sup,
+.border-all,
+.media-two li a:hover,
+.border-all-5-primary,
+.experience,
+.border-b-1-primary,
+.form-control:focus,
+.comment-form-one .form-control:focus,
+.signup-form .form-control:focus,
+.border-l-5-primary,
+.streangth-img:before,
+.service-3 .service-3-icon,
+.testimonial-four img{
+	border-color: #0197af !important;
+}
+.member-prifile-4:after{
+	border-top-color: #0197af;
+}
+.faq-item .faq-icon:before{
+	border-right-color: #0197af;
+}
+.media-two li a{
+	border-color: #6c757d;
+}
+.border-light-gray,
+.custom-option,
+.newsletter-style-2 .form-control:focus,
+.newsletter-style-2 .form-control,
+.border-all-5-light-gray,
+.large-search .form-search .form-control,
+.comment-form-one .form-control,
+.signup-form .form-control,
+.border-b-1-light-gray{
+	border-color: #dfdfdf;
+}
+.custom-select-trigger:after,
+.owl-carousel.testimonial-one button.owl-dot,
+.media-one li a,
+.owl-carousel .owl-dots button.owl-dot{
+	border-color: #343a40;
+}
+.process-icon:before,
+.border-b-1-solid-gray{
+	border-color: #6c757d;
+}
+.border-t-1-dark{
+	border-top-color: #343a40;
+}
+.border-b1,
+.contact-form-1 .contact-message-1 .form-control,
+.contact-form-2 .contact-message-2 .form-control{
+	border-color: #dfdfdf;	
+}
+.border-b-1-light{
+	border-color: #dfdfdf;
+}
+.round{
+	border-color: #343a40 !important
+}
+.owl-carousel .owl-dots button.owl-dot.active span:before,
+.newsletter-style-1 .form-control,
+.newsletter-style-1 .form-control:focus,
+.prifile-content img,
+.icon-box{
+	border-color: #fff;
+}
+#scroll span{
+    border-bottom-color: #fff;
+}
+.header-4 .nav-header:after{
+  border-color: #082136 #082136 #082136 transparent
+}
+/* Overlay color
+===================================================*/ 
+.overlay-white:before{
+	background-color: rgba(255,255,255,0.7);
+}
+.achive-icon-one:before{
+	background-color: rgba(108,117,125,0.2);
+}
+
+.overlay-dark:before{
+	background-color: rgba(0,0,0,0.8);
+}
+.overlay-gradient:before,
+.overlay-hover-gradient:before{
+	background-image: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(255,255,255,0));
+}
+.bg-light-overlay{
+    background-color: rgba(248,249,250,0.9);
+}
+.overlay-secondery:before{
+	background-color: rgba(8, 33, 54, 0.5);
+}
+.overlay-secondery-6:before{
+	background-color: rgba(8, 33, 54, 0.6);
+}
+.overlay-secondery-8:before{
+	background-color: rgba(8, 33, 54, 0.8);
+}
+.overlay-secondery-9:before{
+	background-color: rgba(8, 33, 54, 0.9);
+}
+/* Box Shadow
+===================================================*/ 
+.box-shadow,
+.custom-options,
+.thumbnail-2,
+.owl-nav-round .owl-nav button.owl-prev,
+.owl-nav-round .owl-nav button.owl-next,
+.search-field .search.show{
+	box-shadow: 0px 2px 10px rgba(25, 25, 25, 0.10);
+}
+.header-fixed{
+	box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
+}
+.dropdown-menu{
+	box-shadow: 0 1px 8px rgba(0,0,0,.05);
+}
+.line-right:before{
+	box-shadow: 0 0 0 4px rgba(34,136,252,.15);
+}
+
+.gallery-1 .gallery-navbar li.active,
+.gallery-2 .gallery-navbar li.active,
+.gallery-4 .gallery-navbar li.active,
+.overlay-hover-gradient,
+.gallery-5 .gallery-navbar li.active,
+.gallery-5 .gallerynav-four:hover{
+	color: #0197af
+}
+.gallery-3 .gallerynav-three:before, 
+.gallery-3 .gallerynav-three:after, 
+.gallery-3 .gallerynav-three{
+	background-color: #082136
+}
+.gallery-2 .gallery-navbar li{
+	color: #082136
+}
+.portfolio-content a{
+	color: #fff
+}
+.gallery-2 .gallery-navbar .gallerynav-two rect,
+.gallery-2 .gallerynav-two rect{
+    stroke: #082136
+}
+.gallery-4 .gallery-navbar li svg.button-stroke{
+    stroke: #0197af
+}
+.portfolio-content a:hover{
+	color: #082136;
+	background-color: #fff
+}
+.bg-gradient, .review:after,
+.gallery-1 .portfolio-content,
+.gallery-2 .portfolio-content:before{
+    background: rgba(8,33,54, 0.9);
+}
+.border-b-1-solid{
+	border-color: #dfdfdf;
+}
+
+#header .top-head ul li i,
+#header .custom-select-trigger:after,
+.navbar-light .navbar-nav .nav-link,
+.nav-header .nav-item span{
+	color: #343a40 !important;
+}

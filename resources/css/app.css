@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-form:before {
+    background: url(../images/background/12.jpg) no-repeat right center / cover !important;
+}
